@@ -1,0 +1,32 @@
+.card {
+    width: 10rem;
+    height: 13rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: var(--boxShadow);
+    padding: 0 26px 1rem 26px;
+    border-radius: 10px;
+    border: 7px solid var(--orangeCard);
+}
+
+
+.card span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.card > img {
+    transform: scale(0.8);
+    margin-bottom: -1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: auto;
+    }
+}
