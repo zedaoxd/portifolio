@@ -5,6 +5,7 @@ import LandingPage from '../../img/landing-page.png';
 import Dsmeta from '../../img/dsmeta.png';
 import Dscatalog from '../../img/dscatalog2.png';
 import Movieflix from '../../img/movieflix.png';
+import NavegacaoSimples from '../../img/navegação-simples.png';
 import 'swiper/css';
 import 'swiper/css/pagination'
 import {themeContext} from '../../Context';
@@ -46,6 +47,11 @@ const Portfolio = () => {
                 <SwiperSlide>
                     <a href="https://landing-page-bruno.netlify.app/" target="_blank" rel="noreferrer">
                         <img src={LandingPage} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://layout-and-navigation.netlify.app/" target="_blank" rel="noreferrer">
+                        <img src={NavegacaoSimples} alt="" />
                     </a>
                 </SwiperSlide>
             </Swiper>
