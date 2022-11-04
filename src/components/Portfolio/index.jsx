@@ -30,13 +30,18 @@ const Portfolio = () => {
             pagination={{clickable: true}} 
             className="portifolio-slider"
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img src={Movieflix} alt="" />
                     <div style={{height:'30px'}}></div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <a href="https://dscatalog-bruno-lessa.netlify.app/" target="_blank" rel="noreferrer">
                         <img src={Dscatalog} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://movieflix-bruno.netlify.app/" target="_blank" rel="noreferrer">
+                        <img src={Movieflix} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
