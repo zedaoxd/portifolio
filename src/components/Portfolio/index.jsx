@@ -6,7 +6,7 @@ import Dsmeta from "../../img/dsmeta.png";
 import Dscatalog from "../../img/dscatalog2.png";
 import Movieflix from "../../img/movieflix.png";
 import NavegacaoSimples from "../../img/navegação-simples.png";
-import EEsseFilme from "../../img/e-esse-filme.png";
+import EEsseFilme from "../../img/eessefilme.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { themeContext } from "../../Context";
