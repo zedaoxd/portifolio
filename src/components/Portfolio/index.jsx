@@ -33,6 +33,15 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <a
+            href="https://eessefilme.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={EEsseFilme} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
             href="https://dscatalog-bruno-lessa.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -74,15 +83,6 @@ const Portfolio = () => {
             rel="noreferrer"
           >
             <img src={NavegacaoSimples} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
-            href="https://eessefilme.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={EEsseFilme} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>
