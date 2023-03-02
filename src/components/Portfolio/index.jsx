@@ -34,7 +34,7 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <a
-            href="https://zedaoxd.github.io/vitual-shop/produtos"
+            href="https://zedaoxd.github.io/vitual-shop/"
             target="_blank"
             rel="noreferrer"
           >
