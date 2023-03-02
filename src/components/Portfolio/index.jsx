@@ -7,6 +7,7 @@ import Dscatalog from "../../img/dscatalog2.png";
 import Movieflix from "../../img/movieflix.png";
 import NavegacaoSimples from "../../img/navegação-simples.png";
 import EEsseFilme from "../../img/eessefilme.png";
+import VirtualShop from "../../img/virtual-shop.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { themeContext } from "../../Context";
@@ -31,6 +32,15 @@ const Portfolio = () => {
         pagination={{ clickable: true }}
         className="portifolio-slider"
       >
+        <SwiperSlide>
+          <a
+            href="https://zedaoxd.github.io/vitual-shop/produtos"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={VirtualShop} alt="" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://eessefilme.netlify.app/"
