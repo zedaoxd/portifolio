@@ -9,6 +9,7 @@ import NavegacaoSimples from "../../img/navegação-simples.png";
 import EEsseFilme from "../../img/eessefilme.png";
 import Labarber from "../../img/la-barber.png";
 import VirtualShop from "../../img/virtual-shop.png";
+import OpenTable from "../../img/open-table.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { themeContext } from "../../Context";
@@ -33,6 +34,15 @@ const Portfolio = () => {
         pagination={{ clickable: true }}
         className="portifolio-slider"
       >
+        <SwiperSlide>
+          <a
+            href="https://opentable.up.railway.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={OpenTable} alt="" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://labarber.netlify.app/"
